@@ -6,7 +6,7 @@
 		<div class="col-md-12">
 		<h1>Form Create Event</h1>
 
-<form>
+<form method="POST" action="proses_form.php">
   <div class="form-group row">
     <label for="nama" class="col-4 col-form-label">Nama Event</label> 
     <div class="col-8">
@@ -74,7 +74,11 @@
   </div> 
   <div class="form-group row">
     <div class="offset-4 col-8">
-      <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+    <!--
+      <button name="submit" type="submit" class="btn btn-primary">Submit</button>-->
+      <input value="Simpan" 
+             name="proses" 
+             type="submit" class="btn btn-primary"/>
     </div>
   </div>
 </form>
